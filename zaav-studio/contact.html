@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Zaav Studio | Let's Make Something Worth Watching</title>
+  <meta name="description" content="Tell us about your project, idea or story. Contact Zaav Studio for film production, commercials, music videos and creative direction.">
+  <link rel="canonical" href="https://zaav.studio/contact.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Contact — Zaav Studio">
+  <meta property="og:description" content="Let's make something worth watching. Tell us about your project.">
+  <meta property="og:url" content="https://zaav.studio/contact.html">
+  <meta property="og:image" content="https://zaav.studio/assets/images/og-image.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Contact — Zaav Studio">
+  <meta name="twitter:description" content="Let's make something worth watching.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="index.html" class="logo">Zaav Studio</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle dark / light mode"></button>
+        <button class="nav-toggle" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="label reveal">Contact</p>
+        <h1 class="display-lg reveal reveal-delay-1">Let's make something<br>worth watching.</h1>
+        <p class="body-lg reveal reveal-delay-2" style="max-width:480px;margin-top:1rem;">Tell us about your project, idea or story.</p>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:1rem;">
+      <div class="container">
+        <div class="contact-layout">
+          <!-- Info -->
+          <div class="contact-info reveal">
+            <div class="contact-details">
+              <a href="mailto:hello@zaav.studio" class="contact-link">
+                <span class="label">Email</span>
+                <span>hello@zaav.studio</span>
+              </a>
+              <a href="https://instagram.com/zaavstudio" class="contact-link" target="_blank" rel="noopener">
+                <span class="label">Instagram</span>
+                <span>@zaavstudio</span>
+              </a>
+              <a href="https://youtube.com/@zaavstudio" class="contact-link" target="_blank" rel="noopener">
+                <span class="label">YouTube</span>
+                <span>Zaav Studio</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Form -->
+          <div class="contact-form-wrap reveal reveal-delay-1">
+            <form class="contact-form glass" action="#" method="post">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Your name" autocomplete="name">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="you@example.com" autocomplete="email">
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="project-type">Project Type</label>
+                  <select id="project-type" name="project-type" required>
+                    <option value="" disabled selected>Select type</option>
+                    <option value="film">Film / Narrative</option>
+                    <option value="commercial">Commercial</option>
+                    <option value="music-video">Music Video</option>
+                    <option value="fashion">Fashion Film</option>
+                    <option value="brand">Brand Film</option>
+                    <option value="editing">Editing / Post</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="budget">Budget Range</label>
+                  <select id="budget" name="budget">
+                    <option value="" disabled selected>Select range</option>
+                    <option value="under-10k">Under $10k</option>
+                    <option value="10-25k">$10k – $25k</option>
+                    <option value="25-50k">$25k – $50k</option>
+                    <option value="50-100k">$50k – $100k</option>
+                    <option value="100k-plus">$100k+</option>
+                    <option value="tbd">To be discussed</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required placeholder="Tell us about the project, timeline, and any references..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-arrow" style="align-self:flex-start;margin-top:0.5rem;">Send Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">© 2026 Zaav Studio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="work.html">Work</a>
+        <a href="team.html">Team</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://instagram.com/zaavstudio" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/theme.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animations.js"></script>
+</body>
+</html>
